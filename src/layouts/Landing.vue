@@ -1,8 +1,8 @@
 <template>
   <div>
-    <TopBar :menu.sync="menuToggle" class="fixed top-0 w-full z-20" />
+    <TopBar :menu.sync="menuToggle" :searchMenu.sync="searchMenu" class="fixed top-0 w-full z-20" />
     <router-view class="min-h-screen pt-16 pb-12 sm:pb-0"></router-view>
-    <BottomBar class="fixed bottom-0 h-12 sm:hidden"/>
+    <BottomBar class="fixed bottom-0 h-12 sm:hidden" :searchMenu.sync="searchMenu"/>
     <Drawer v-model="menuToggle" />
   </div>
 </template>
@@ -19,7 +19,8 @@ export default {
   },
   data () {
     return {
-      menuToggle: false
+      menuToggle: false,
+      searchMenu: false
     }
   }
 }

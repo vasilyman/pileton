@@ -33,7 +33,7 @@
         </transition>
       </div>
       <div class="relative mr-2 flex h-full mr-4">
-        <a href="#" @click.prevent="searchMenu = !searchMenu" class="flex w-10 h-10 bg-gray-100 rounded-full my-auto justify-center items-center">
+        <a href="#" @click.prevent="$emit('update:searchMenu', !searchMenu)" class="flex w-10 h-10 bg-gray-100 rounded-full my-auto justify-center items-center">
           <i class="fas fa-search"></i>
         </a>
       </div>
@@ -45,7 +45,7 @@
     <transition name="slide-top">
       <div v-if="searchMenu" class="absolute mt-3 top-full w-full px-3 flex">
         <input class="y-3 flex-1 my-auto rounded-l-xl text-gray-900 focus:ring-transparent focus:border-gray-900" type="text" name="" id="" placeholder="Search">
-        <button class="y-3 border border-gray-900 my-auto mr-3 rounded-r-xl bg-gray-900 py-2 px-4 text-white">
+        <button class="y-3 border border-gray-900 my-auto rounded-r-xl bg-gray-900 py-2 px-4 text-white">
           <i class="fas fa-search"></i>
         </button>
       </div>
@@ -59,7 +59,8 @@ export default {
       type: Array,
       default: () => ([])
     },
-    menu: Boolean
+    menu: Boolean,
+    searchMenu: Boolean
   },
   data () {
     return {
@@ -77,8 +78,7 @@ export default {
           link: '#'
         }
       ],
-      userMenu: false,
-      searchMenu: false
+      userMenu: false
     }
   },
   computed: {
