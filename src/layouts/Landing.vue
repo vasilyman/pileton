@@ -1,7 +1,7 @@
 <template>
   <div>
-    <TopBar :menu.sync="menuToggle" class="fixed top-0 w-full" />
-    <router-view class="min-h-screen pt-16 sm:pb-12"></router-view>
+    <TopBar :menu.sync="menuToggle" class="fixed top-0 w-full z-20" />
+    <router-view class="min-h-screen pt-16 pb-12 sm:pb-0"></router-view>
     <BottomBar class="fixed bottom-0 h-12 sm:hidden"/>
     <Drawer v-model="menuToggle" />
   </div>

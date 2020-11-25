@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import './transitions.scss';
+
+.aspect-3\/4 {
+  padding-bottom: 133.33%;
+}

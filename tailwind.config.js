@@ -1,9 +1,21 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': colors.blue,
+      }
+    },
   },
-  variants: {},
-  plugins: [],
+  variants: {
+    extend: {
+      borderRadius: ['hover', 'focus'],
+    },
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
