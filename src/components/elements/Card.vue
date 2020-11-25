@@ -8,7 +8,7 @@
         <div class="rounded-xl px-3 bg-purple-500 mr-1 mb-1">Tag 3</div>
       </div>
     </div>
-    <div class="flex-1 w-full p-5 flex flex-col justify-between relative ev-card-content">
+    <div class="flex-1 w-full p-5 flex flex-col justify-between relative bg-white ev-card-content">
       <div class="mb-3">
         <div class="text-xl font-bold">{{ title }}</div>
         <div class="text-gray-500 text-sm">Other</div>
@@ -71,7 +71,7 @@ export default {
     position: absolute;
     top: 0;
     transform: translateY(-100%);
-    left: 20%;
+    left: 25%;
     width: 2rem;
     height: 3rem;
     border-bottom-left-radius: 1.5rem;
@@ -83,7 +83,7 @@ export default {
     position: absolute;
     top: 0;
     transform: translate(-100%, -100%);
-    left: 20%;
+    left: 25%;
     width: 2rem;
     height: 3rem;
     border-bottom-right-radius: 1.5rem;

@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-2xl shadow-lg p-4">
+  <div class="rounded-2xl shadow-lg p-4 bg-white">
     <div class="text-center font-bold mb-8">Фильтры</div>
     <div class="font-bold mb-3">Даты</div>
     <label class="block space-x-3 flex items-center" v-for="(item, i) in filter.dates" :key="i" :for="`dates-${i}`">
