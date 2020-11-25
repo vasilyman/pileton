@@ -78,7 +78,7 @@ export default {
         }
       ],
       userMenu: false,
-      searchMenu: true
+      searchMenu: false
     }
   },
   computed: {
