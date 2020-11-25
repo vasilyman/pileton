@@ -1,0 +1,74 @@
+@import '~vue-slick-carousel/dist/vue-slick-carousel.css';
+@import '~vue-slick-carousel/dist/vue-slick-carousel-theme.css';
+
+.slick-dots {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+}
+
+.slick-dots {
+  //
+}
+
+.slick-arrow {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: rgba(255,255,255, 0.1);
+  text-align: center;
+  transition: all .3s;
+
+  &:hover {
+    background-color: rgba(255,255,255, 0.3);
+
+    &:before {
+      border-color: white;
+    }
+  }
+}
+
+.slick-arrow:before {
+  content: " ";
+  display: block;
+  font-size: 1rem;
+  border-color: white;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  width: 1rem;
+  height: 1rem;
+  margin: auto;
+  transition: all .3s;
+}
+
+.slick-prev {
+  left: 20%;
+  transform: translateX(-200%);
+  z-index: 1;
+
+  &::before {
+    transform: translateX(25%) rotateZ(-45deg);
+  }
+}
+
+.slick-next {
+  right: 20%;
+  transform: translateX(200%);
+
+  &::before {
+    transform: translateX(-25%) rotateZ(135deg);
+  }
+}
+
+.slick-dots li, .slick-dots li button {
+  width: 2rem;
+  height: 2rem;
+}
+
+.slick-dots li button:before {
+  color: white;
+  width: 1rem;
+  height: 1rem;
+  margin: .5rem;
+  font-size: 1rem;
+}
