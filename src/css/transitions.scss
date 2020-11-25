@@ -1,0 +1,18 @@
+/* fade */
+.fade-enter-active, .fade-leave-active {
+  transition: all ease-in-out .2s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+/* fade end */
+
+/* fade-slide-left */
+.slide-left-enter-active, .slide-left-leave-active {
+  transition: all ease-in-out .2s;
+}
+.slide-left-enter, .slide-left-leave-to {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+/* fade-slide-left end */

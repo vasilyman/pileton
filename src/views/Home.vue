@@ -1,18 +1,53 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <main class="bg-gray-50">
+    <section class="container mx-auto p-4">
+      <h1 class="text-xl font-bold my-8">Афиша концертов Москвы на 2020</h1>
+      <div class="flex flex-col lg:flex-row">
+        <div class="flex-1 lg:mr-4">
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+            <Card v-for="(event, i) in events" :key="i" :title="event.title" :image="event.image" />
+          </div>
+        </div>
+        <div class="w-full lg:w-1/4 lg:ml-4">
+          <Filters />
+        </div>
+      </div>
+    </section>
+  </main>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import events from './dummy.json'
+import Filters from '@/components/Filters.vue'
 
 export default {
-  name: 'Home',
   components: {
-    HelloWorld
+    Filters
+  },
+  data () {
+    return {
+      events: []
+    }
+  },
+  created () {
+    this.getEvents()
+      .then((data) => {
+        console.log(data)
+      })
+  },
+  methods: {
+    async getEvents () {
+      // call API
+      return await new Promise((resolve) => setTimeout(() => resolve(), 1000))
+        .then(() => {
+          this.events = events.data.map((el) => ({
+            image: 'https://via.placeholder.com/150', /** el.media?.[0].url */
+            title: el.place.name
+          }))
+          console.log('succesfull')
+          return events.data
+        })
+    }
   }
 }
 </script>

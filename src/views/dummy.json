@@ -1,0 +1,184 @@
+{
+  "status": 200,
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "place_id": 2,
+      "category_id": 9000000,
+      "fee": "0.000",
+      "service_fee": "0.000",
+      "start": "2020-08-25T22:00:00.000000Z",
+      "end": "2020-08-26T23:00:00.000000Z",
+      "created_at": "2020-08-24T21:01:09.000000Z",
+      "updated_at": "2020-08-24T21:01:09.000000Z",
+      "created_by": 1,
+      "updated_by": 1,
+      "deleted_at": null,
+      "minPrice": 0,
+      "maxPrice": 0,
+      "media": [
+        {
+          "name": "UWEEp8g9.AMwoDMwsyM0oDMwoTMyQFNy0COw0CMyAjM.jpg",
+          "width": 500,
+          "height": 250,
+          "prefix": "",
+          "is_poster": 0,
+          "url": "https:\/\/storage.googleapis.com\/web-main-bucket\/public\/media\/images\/temporary\/UWEEp8g9.AMwoDMwsyM0oDMwoTMyQFNy0COw0CMyAjM.jpg"
+        },
+        {
+          "name": "UWEEp8g9.MzAw.AMwoDMwsyM0oDMwoTMyQFNy0COw0CMyAjM.jpg",
+          "width": 300,
+          "height": 150,
+          "prefix": "300",
+          "is_poster": 0,
+          "url": "https:\/\/storage.googleapis.com\/web-main-bucket\/public\/media\/images\/temporary\/UWEEp8g9.MzAw.AMwoDMwsyM0oDMwoTMyQFNy0COw0CMyAjM.jpg"
+        }
+      ],
+      "languages": [
+        {
+          "id": 1,
+          "event_id": 1,
+          "language_id": 42,
+          "title": "Testing new",
+          "description": "Hellow this is Estonian here",
+          "created_at": "2020-08-24T21:01:09.000000Z",
+          "updated_at": "2020-08-24T21:01:09.000000Z",
+          "created_by": 1,
+          "updated_by": 1,
+          "deleted_at": null
+        }
+      ],
+      "place": {
+        "id": 2,
+        "name": "Cathouse",
+        "address": "Tuukri 5-6",
+        "city": "Tallinn",
+        "country_code": "EE",
+        "place_type_id": 2,
+        "created_at": "2020-08-23T16:52:26.000000Z",
+        "updated_at": "2020-08-23T16:52:26.000000Z"
+      }
+    },
+    {
+      "id": 3,
+      "place_id": 2,
+      "category_id": 9000000,
+      "fee": "0.000",
+      "service_fee": "0.000",
+      "start": "2020-09-20T14:00:00.000000Z",
+      "end": "2020-09-21T16:00:00.000000Z",
+      "created_at": "2020-09-12T07:52:11.000000Z",
+      "updated_at": "2020-09-12T07:52:11.000000Z",
+      "created_by": 1,
+      "updated_by": 1,
+      "deleted_at": null,
+      "minPrice": "10.0000",
+      "maxPrice": "15.5000",
+      "languages": [
+        {
+          "id": 2,
+          "event_id": 3,
+          "language_id": 42,
+          "title": "Now tickets work",
+          "description": "Testing another description",
+          "created_at": "2020-09-12T07:52:11.000000Z",
+          "updated_at": "2020-09-12T07:52:11.000000Z",
+          "created_by": 1,
+          "updated_by": 1,
+          "deleted_at": null
+        }
+      ],
+      "place": {
+        "id": 2,
+        "name": "Cathouse",
+        "address": "Tuukri 5-6",
+        "city": "Tallinn",
+        "country_code": "EE",
+        "place_type_id": 2,
+        "created_at": "2020-08-23T16:52:26.000000Z",
+        "updated_at": "2020-08-23T16:52:26.000000Z"
+      }
+    },
+    {
+      "id": 7,
+      "place_id": 3,
+      "category_id": 9000000,
+      "fee": "0.000",
+      "service_fee": "0.000",
+      "start": "2020-11-26T08:00:00.000000Z",
+      "end": "2020-11-26T10:00:00.000000Z",
+      "created_at": "2020-11-14T22:23:51.000000Z",
+      "updated_at": "2020-11-14T22:23:51.000000Z",
+      "created_by": 1,
+      "updated_by": 1,
+      "deleted_at": null,
+      "minPrice": "10.0000",
+      "maxPrice": "10.0000",
+      "languages": [
+        {
+          "id": 6,
+          "event_id": 7,
+          "language_id": 40,
+          "title": "Venue tickets can be bought",
+          "description": "Suspendisse tempor in augue non facilisis. Nunc id ultrices sem. Suspendisse potenti. Donec vulputate eros non rutrum consectetur. Vivamus a nisl vitae libero tincidunt convallis in quis est. In posuere ante sit amet neque lobortis vestibulum. Fusce varius ante quis quam sagittis, aliquam luctus metus fermentum. Nam tempus id sapien quis efficitur.",
+          "created_at": "2020-11-14T22:23:51.000000Z",
+          "updated_at": "2020-11-14T22:23:51.000000Z",
+          "created_by": 1,
+          "updated_by": 1,
+          "deleted_at": null
+        }
+      ],
+      "place": {
+        "id": 3,
+        "name": "Venekultuuri Keskus",
+        "address": "Test 3-2",
+        "city": "Tallinn",
+        "country_code": "EE",
+        "place_type_id": 1,
+        "created_at": "2020-08-23T16:52:26.000000Z",
+        "updated_at": "2020-08-23T16:52:26.000000Z"
+      }
+    },
+    {
+      "id": 11,
+      "place_id": 3,
+      "category_id": 9000000,
+      "fee": "0.000",
+      "service_fee": "0.000",
+      "start": "2020-11-17T06:00:00.000000Z",
+      "end": "2020-11-18T06:00:00.000000Z",
+      "created_at": "2020-11-22T19:54:13.000000Z",
+      "updated_at": "2020-11-22T19:54:13.000000Z",
+      "created_by": 1,
+      "updated_by": 1,
+      "deleted_at": null,
+      "minPrice": "5.0000",
+      "maxPrice": "15.0000",
+      "languages": [
+        {
+          "id": 10,
+          "event_id": 11,
+          "language_id": 40,
+          "title": "New event happening on GCS",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet, neque ut consectetur dapibus, risus leo eleifend turpis, vitae laoreet tellus neque a turpis. Nulla laoreet a mi nec malesuada. Mauris tristique vel velit non gravida. Cras semper eros in quam bibendum, non pretium arcu interdum. Donec sit amet erat malesuada, dictum tellus eget, dapibus lorem. Aenean eget faucibus orci. Mauris eget turpis vitae nisi varius dignissim. Donec feugiat eu leo a rhoncus. Proin rutrum massa elementum nunc lacinia molestie. Praesent augue nibh, malesuada vitae magna nec, ullamcorper ultrices mi.",
+          "created_at": "2020-11-22T19:54:13.000000Z",
+          "updated_at": "2020-11-22T19:54:13.000000Z",
+          "created_by": 1,
+          "updated_by": 1,
+          "deleted_at": null
+        }
+      ],
+      "place": {
+        "id": 3,
+        "name": "Venekultuuri Keskus",
+        "address": "Test 3-2",
+        "city": "Tallinn",
+        "country_code": "EE",
+        "place_type_id": 1,
+        "created_at": "2020-08-23T16:52:26.000000Z",
+        "updated_at": "2020-08-23T16:52:26.000000Z"
+      }
+    }
+  ]
+}
