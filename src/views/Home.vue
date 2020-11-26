@@ -3,7 +3,7 @@
     <section>
       <Slider />
     </section>
-    <section class="container mx-auto px-4 mb-8">
+    <section class="container mx-auto px-4 pb-8">
       <h1 class="text-xl font-bold my-8">Афиша концертов Москвы на 2020</h1>
       <div class="flex flex-col lg:flex-row">
         <div class="flex-1 lg:mr-4">

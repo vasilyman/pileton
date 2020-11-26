@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full bg-gray-900 text-white flex">
+  <div class="w-full bg-white border-t flex">
     <ul class="flex w-full">
       <li v-for="(item, i) in itemsDummy" :key="i" class="flex-1 flex">
         <a :href="item.link" @click.prevent="toggle(item.name)" class="flex flex-col flex-1 justify-center items-center">
-          <i class="fas mb-1" :class="{[`fa-${item.icon}`]: true}"></i>
+          <i class="fas mb-1 text-gray-700" :class="{[`fa-${item.icon}`]: true}"></i>
           <span class="text-xs text-gray-400">{{ item.title }}</span>
         </a>
       </li>
@@ -20,19 +20,19 @@ export default {
     return {
       itemsDummy: [
         {
-          title: 'Profile',
+          title: 'Профиль',
           name: 'user',
           icon: 'user',
           link: '#'
         },
         {
-          title: 'Search',
+          title: 'Поиск',
           name: 'search',
           icon: 'search',
           link: '#'
         },
         {
-          title: 'Bilets',
+          title: 'Билеты',
           name: 'ticket',
           icon: 'ticket-alt',
           link: '#'

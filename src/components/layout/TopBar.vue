@@ -44,7 +44,7 @@
     </div>
     <transition name="slide-top">
       <div v-if="searchMenu" class="absolute mt-3 top-full w-full px-3 flex">
-        <input class="y-3 flex-1 my-auto rounded-l-xl text-gray-900 focus:ring-transparent focus:border-gray-900" type="text" name="" id="" placeholder="Search">
+        <input class="y-3 flex-1 my-auto rounded-l-xl text-gray-900 focus:ring-transparent focus:border-gray-900" type="text" name="" id="" placeholder="Поиск">
         <button class="y-3 border border-gray-900 my-auto rounded-r-xl bg-gray-900 py-2 px-4 text-white">
           <i class="fas fa-search"></i>
         </button>
